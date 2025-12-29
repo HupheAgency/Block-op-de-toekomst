@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wie we zijn — Blok op de Toekomst</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Blok op de Toekomst<small>Altijd aanwezig. Altijd vooruit.</small></a>
+
+      <button class="burger" data-burger aria-label="Menu">☰</button>
+
+      <nav class="nav" data-nav>
+        <a href="doel.html" class="">Doel</a>
+        <a href="manifest.html" class="">Manifest</a>
+        <a href="hoe-het-werkt.html" class="">Hoe het werkt</a>
+        <a href="groei.html" class="">Groei & fases</a>
+        <a href="wetenschap.html" class="">Wetenschap</a>
+        <a href="wie-we-zijn.html" class="active">Wie we zijn</a>
+        <a href="bijdrage.html" class="">Bijdrage</a>
+        <a href="faq.html" class="">FAQ</a>
+        <a class="cta" href="blijf-staan.html">Blijf staan <span>€3 p/m</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+      <section class="hero">
+    <div class="container">
+      <div class="kicker">Wie we zijn</div>
+      <h1 class="h1">Open. <span class="glow">Serieus</span>.</h1>
+      <p class="lede">Een klein professioneel kernteam, aangevuld met advies (wetenschappelijk, juridisch, economisch). Geen activisme, geen partijpolitiek — wel volharding.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container grid two">
+      <div class="card">
+        <h2>Structuur</h2>
+        <ul class="list">
+          <li>Kernteam (operatie & continuïteit)</li>
+          <li>Wetenschappelijke adviesraad</li>
+          <li>Juridisch/economisch toetskader</li>
+          <li>Transparante verantwoording</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h2>Sluit je aan bij het team</h2>
+        <p>Ben je een toevoeging (expertise, onderzoek, data, beleid, juridische kennis, organisatie)? Laat van je horen.</p>
+        <div class="form-row">
+          <input class="input" type="email" placeholder="jouw@email.nl" />
+          <button class="button" type="button">Neem contact op</button>
+        </div>
+        <p class="note">Dit formulier is een placeholder. Koppel later aan e-mail / CRM.</p>
+      </div>
+    </div>
+  </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="hr"></div>
+      <p class="fine">Blok op de Toekomst is een burgercollectief in opbouw. Dit is een conceptsite (static HTML) om structuur en transparantie te testen.</p>
+      <p class="fine">© <span id="y"></span> Blok op de Toekomst — <a href="blijf-staan.html">Blijf staan</a>.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
